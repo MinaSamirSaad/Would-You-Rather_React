@@ -1,0 +1,38 @@
+.container{
+background-color: #6a89cc;
+background-size: cover;
+background-position: center;
+}
+.Login{
+width: 40vw;
+height: 50vh;
+border: 0.5px solid #3498db;
+border-radius: 20px;
+box-shadow: 1px 1px #b9dfe7;
+margin: 0;
+padding: 10px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+}
+.submit-button{
+padding: 12px 40px;
+    font-weight: 400;
+    font-size:14px ;
+    background-color: #1e88f5;
+    border-radius: 10px;
+    margin-top:40px ;
+    color: white;
+    outline: none;
+    border: none;
+    line-height: 1em;
+}
+.submit-button:hover{
+    background-color: #2185D0;
+}
+
