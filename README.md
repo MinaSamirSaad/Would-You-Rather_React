@@ -21,7 +21,7 @@ cd <project directory>
 ```
 2. Clone the repo
 ```bash
-git clone https://github.com/mohammedelzanaty/would-you-rather.git
+git clone https://github.com/MinaSamirSaad/Would-You-Rather.git
 ```
 3. Run the project locally
 * npm
