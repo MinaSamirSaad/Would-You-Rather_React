@@ -13,6 +13,8 @@
     padding: 20px 10px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
 .options {
     width: 50%;
@@ -32,4 +34,31 @@
     border: none;
     height: 100%;
 
+}
+
+@media only screen and (max-width: 800px) {
+    .header-container{
+        height: 60px;
+    }
+    .avatar-container{
+        width: 30%;
+        /* flex-wrap: wrap; */
+        gap: unset;
+        padding: 5px 10px 5px 0;
+    }
+    .options {
+        width: 70%;
+    }
+    .option{
+        font-weight: 250;
+        font-size: small;
+        padding: 10px 10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .option{
+        font-weight: 200;
+        font-size: small;
+        padding: 10px 5px;
+    }
 }

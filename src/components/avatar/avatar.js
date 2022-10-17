@@ -8,7 +8,7 @@ const Avatar = () => {
     return (
         <div className='avatar-container'>
         <img className='avatar' src={userAvatar} alt={userAvatar.name}/>
-        <p>{user.name}</p>
+        <p className='avatar-name'>{user.name}</p>
 
         </div>
     )

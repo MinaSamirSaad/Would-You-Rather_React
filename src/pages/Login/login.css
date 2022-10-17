@@ -36,3 +36,9 @@ padding: 12px 40px;
     background-color: #2185D0;
 }
 
+@media only screen and (max-width: 800px) {
+    .Login{
+        width: 90%;
+        height: 70vh;
+    }
+}

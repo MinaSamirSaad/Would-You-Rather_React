@@ -32,3 +32,8 @@
     border-radius: 10px;
     background-color: #3498db;
 }
+@media only screen and (max-width: 800px) {
+    .scorCard-container{
+        width: 95%;
+    }
+}

@@ -19,13 +19,13 @@ const handleChose = (e,value) => {
   }
   console.log(Answer);
   return (
-    <div className="answeredQuestion-container">
+    <div className="unAnsweredQuestion-container">
       <div className="avatar-photo" style={{width:'30%'}}>
         <img src={avatar} alt={author} />
         <p className="author-name">{author}</p>
       </div>
       <Form className='form'>
-        <h3>Would you rather</h3>
+        <h3 className="Would-you-rather">Would you rather</h3>
       <Form.Field>
         <Radio
           label={optionOne}
